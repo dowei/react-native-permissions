@@ -24,15 +24,9 @@ typedef NS_ENUM(NSInteger, RNPType) {
     RNPTypeUnknown,
     RNPTypeLocation,
     RNPTypeCamera,
-    RNPTypeMicrophone,
     RNPTypePhoto,
     RNPTypeContacts,
-    RNPTypeEvent,
-    RNPTypeReminder,
-    RNPTypeBluetooth,
-    RNPTypeNotification,
-    RNPTypeBackgroundRefresh,
-    RNPTypeSpeechRecognition
+    RNPTypeNotification
 };
 
 @interface RCTConvert (RNPStatus)
