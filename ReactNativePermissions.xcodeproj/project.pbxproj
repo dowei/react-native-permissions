@@ -13,6 +13,7 @@
 		9D4628451D34719100346A5B /* RNPPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D46283D1D34719100346A5B /* RNPPhoto.m */; };
 		9DE8D2821CA3188D009CE8CC /* ReactNativePermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8D2811CA3188D009CE8CC /* ReactNativePermissions.m */; };
 		9DE8D28B1CA31E95009CE8CC /* RCTConvert+RNPStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8D28A1CA31E95009CE8CC /* RCTConvert+RNPStatus.m */; };
+		A96D011F1F7C1BE3005130B4 /* RNPAudioVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D011E1F7C1BE3005130B4 /* RNPAudioVideo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,8 @@
 		9DE8D2811CA3188D009CE8CC /* ReactNativePermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ReactNativePermissions.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		9DE8D2891CA31E95009CE8CC /* RCTConvert+RNPStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "RCTConvert+RNPStatus.h"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		9DE8D28A1CA31E95009CE8CC /* RCTConvert+RNPStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "RCTConvert+RNPStatus.m"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A96D011D1F7C1BE3005130B4 /* RNPAudioVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPAudioVideo.h; sourceTree = SOURCE_ROOT; };
+		A96D011E1F7C1BE3005130B4 /* RNPAudioVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPAudioVideo.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				9D46283B1D34719100346A5B /* RNPNotification.m */,
 				9D46283C1D34719100346A5B /* RNPPhoto.h */,
 				9D46283D1D34719100346A5B /* RNPPhoto.m */,
+				A96D011D1F7C1BE3005130B4 /* RNPAudioVideo.h */,
+				A96D011E1F7C1BE3005130B4 /* RNPAudioVideo.m */,
 			);
 			name = permissions;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96D011F1F7C1BE3005130B4 /* RNPAudioVideo.m in Sources */,
 				9D4628451D34719100346A5B /* RNPPhoto.m in Sources */,
 				9D4628431D34719100346A5B /* RNPLocation.m in Sources */,
 				9DE8D28B1CA31E95009CE8CC /* RCTConvert+RNPStatus.m in Sources */,
