@@ -42,8 +42,8 @@
 		9DE8D2811CA3188D009CE8CC /* ReactNativePermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ReactNativePermissions.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		9DE8D2891CA31E95009CE8CC /* RCTConvert+RNPStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "RCTConvert+RNPStatus.h"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		9DE8D28A1CA31E95009CE8CC /* RCTConvert+RNPStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "RCTConvert+RNPStatus.m"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		A96D011D1F7C1BE3005130B4 /* RNPAudioVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPAudioVideo.h; sourceTree = SOURCE_ROOT; };
-		A96D011E1F7C1BE3005130B4 /* RNPAudioVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPAudioVideo.m; sourceTree = SOURCE_ROOT; };
+		A96D011D1F7C1BE3005130B4 /* RNPAudioVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNPAudioVideo.h; path = permissions/RNPAudioVideo.h; sourceTree = SOURCE_ROOT; };
+		A96D011E1F7C1BE3005130B4 /* RNPAudioVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNPAudioVideo.m; path = permissions/RNPAudioVideo.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

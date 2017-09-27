@@ -39,6 +39,7 @@
 #import "RNPNotification.h"
 #import "RNPPhoto.h"
 #import "RNPContacts.h"
+#import "RNPAudioVideo.h"
 
 @interface ReactNativePermissions()
 @property (strong, nonatomic) RNPLocation *locationMgr;
